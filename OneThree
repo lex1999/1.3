@@ -1,0 +1,40 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class oneThree
+{   public static void main (String []args)
+    
+    {
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("input a number");
+        
+        Double numberone = input.nextDouble(); //first number
+        
+        System.out.println("input another number");
+        
+        Double numbertwo = input.nextDouble(); //second number
+        
+        if (numberone % 2 == 0)
+        {
+            System.out.println (numberone + " is even");
+        }
+        else
+        {
+            System.out.println (numberone + " is odd");
+        }//checks first input
+    
+        
+        
+        if (numbertwo % 2 == 0)
+        {
+            System.out.println (numbertwo + " is even");
+        }
+        else
+        {
+            System.out.println (numbertwo + " is odd");  
+        }//checks second input
+    
+       }//end of main method
+        
+    }//end of class
